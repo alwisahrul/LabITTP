@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab ITTP</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittle_auv"><b>Lab AUV</b></string>
+    <string name="about_content">
+        Aplikasi ini merupakan aplikasi yang diharapkan membantu dalam memanajemen barang-barang yang ada di lab-lab ITTP agar dapat terpantau dengan baik.Aplikasi ini dibuat sebagai tugas besar untuk mata kuliah Pemrograman Perangkat Bergerak oleh kelompok Berlima.
+    </string>
+    <string name="input_barang_tittle"><b>INPUT BARANG</b></string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_atribut"><b>SELAMAT DATANG</b></string>
+    <string name="login_tittlw"><b>LOGIN</b></string>
+</resources>

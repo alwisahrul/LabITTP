@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100sp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/inventaris_icon"
+                android:layout_gravity="center_vertical"/>
+
+            <Button
+                android:id="@+id/inventaris_button"
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="10sp"
+                android:text="Inventaris"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/pinjam_icon"
+                android:layout_gravity="center_vertical"/>
+
+            <Button
+                android:id="@+id/pinjam_button"
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center_horizontal"
+                android:text="Peminjaman"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:src="@drawable/lapor_icon"
+                android:layout_gravity="center_vertical"/>
+
+            <Button
+                android:id="@+id/lapor_button"
+                android:layout_width="250sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center_horizontal"
+                android:text="LAPORAN"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

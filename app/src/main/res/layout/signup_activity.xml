@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100sp"
+        android:layout_gravity="center_horizontal"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <EditText
+                    android:id="@+id/fullname_rgstr"
+                    android:layout_width="280sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5sp"
+                    android:paddingTop="10sp"
+                    android:hint="Nama Lengkap"/>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="280sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5sp"
+                    android:hint="E-mail"/>
+
+                <EditText
+                    android:id="@+id/username_rgstr"
+                    android:layout_width="280sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Username"/>
+
+                <EditText
+                    android:id="@+id/password_rgstr"
+                    android:layout_width="280sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Password"/>
+
+                <EditText
+                    android:id="@+id/confirmPass"
+                    android:layout_width="280sp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Ulangi Password"/>
+
+                <Button
+                    android:id="@+id/signup2"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Sign Up"
+                    android:textColorHint="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Sudah Punya Akun?"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="5sp"/>
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_marginBottom="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Login"
+                    android:textColorHint="@color/white"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</FrameLayout>

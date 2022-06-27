@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="15sp">
+
+        <ImageView
+            android:layout_width="270sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ittp_logo"/>
+
+        <TextView
+            android:layout_marginTop="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_atribut"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="60sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_tittlw"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"/>
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:textColorHint="@color/gray"/>
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/gray"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Login"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Belum Punya Akun?"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Sign Up"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/gray"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

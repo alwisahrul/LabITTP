@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434965803758",
+    "project_id": "labittp",
+    "storage_bucket": "labittp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434965803758:android:68511d6dfa70daa729b9ff",
+        "android_client_info": {
+          "package_name": "com.alwi.labittp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434965803758-i5l4nmdrshgdk5l187ve08sqmsqn6a06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJLNp3R9RFz4tA4wsl93qK9GkmVcxGLjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434965803758-i5l4nmdrshgdk5l187ve08sqmsqn6a06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
