@@ -47,7 +47,7 @@ class SignUpActivity : AppCompatActivity() {
                     Toast.makeText(this, "Password Tidak Sesuai", Toast.LENGTH_SHORT).show()
                 }
             } else {
-                Toast.makeText(this, "Password Tidak Boleh Kosong!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Data Tidak Boleh Kosong!", Toast.LENGTH_SHORT).show()
             }
         }
 
