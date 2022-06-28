@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/drawable/bg_button.xml" value="0.1465" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/drawable/bg_home.xml" value="0.2105" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/activity_inventaris.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/activity_laporan.xml" value="0.264" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/activity_peminjaman.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/fragment_about.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/fragment_rekap.xml" value="0.264" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/login_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/LabITTP2/app/src/main/res/layout/signup_activity.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InventarisActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Input Barang Baru"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="70sp"
+        android:layout_width="300sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/input_nama_brg"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="5sp"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Barang"/>
+
+                <EditText
+                    android:id="@+id/input_jml_brg"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Jumlah Barang"/>
+
+                <EditText
+                    android:id="@+id/input_tgl_brg"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Tanggal Masuk"/>
+
+                <EditText
+                    android:id="@+id/input_deskripsi_brg"
+                    android:layout_marginStart="10sp"
+                    android:layout_marginEnd="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginBottom="30sp"
+                    android:hint="Deskripsi Barang"/>
+
+                <Button
+                    android:id="@+id/add_brg"
+                    android:layout_width="150sp"
+                    android:background="@drawable/bg_button"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="30sp"
+                    android:hint="Tambahkan"
+                    android:textColorHint="@color/white"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

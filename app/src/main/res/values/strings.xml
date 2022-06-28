@@ -20,4 +20,5 @@
     <string name="login_failed">"Login failed"</string>
     <string name="login_atribut"><b>SELAMAT DATANG</b></string>
     <string name="login_tittlw"><b>LOGIN</b></string>
+    <string name="home_atribut"><b>Home</b></string>
 </resources>

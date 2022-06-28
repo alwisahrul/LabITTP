@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PeminjamanActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Peminjaman"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="70sp"
+        android:layout_width="300sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nama_peminjam"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="5sp"
+                android:layout_height="wrap_content"
+                android:hint="Nama Peminjam"/>
+
+            <EditText
+                android:id="@+id/nim_peminjam"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginBottom="5sp"
+                android:hint="NIM Peminjam"/>
+
+            <EditText
+                android:id="@+id/nama_brg"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:hint="Nama Barang"/>
+
+            <EditText
+                android:id="@+id/jml_pinjam"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginBottom="5sp"
+                android:hint="Jumlah Pinjam"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/tgl_pinjam"
+                    android:layout_marginStart="10sp"
+                    android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Tgl Pinjam"/>
+
+                <EditText
+                    android:id="@+id/tgl_kembali"
+                    android:layout_marginEnd="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:layout_marginBottom="5sp"
+                    android:hint="Tgl Kembali"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/kondsi_pinjam"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30sp"
+                android:hint="Kondisi"/>
+
+            <Button
+                android:id="@+id/pinjam_brg"
+                android:layout_width="150sp"
+                android:background="@drawable/bg_button"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30sp"
+                android:hint="Pinjamkan"
+                android:textColorHint="@color/white"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
