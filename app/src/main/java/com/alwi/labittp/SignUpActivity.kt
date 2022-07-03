@@ -12,7 +12,7 @@ import java.time.Instant
 class SignUpActivity : AppCompatActivity() {
 
     private lateinit var binding: SignupActivityBinding
-    private lateinit var firebaseAuth: FirebaseAuth
+    private lateinit var firebaseAuth: FirebaseAuth //Mengkoneksikan ke firebase
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
 

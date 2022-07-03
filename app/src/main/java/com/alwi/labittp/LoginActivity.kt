@@ -38,6 +38,7 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            //Memastikan bahwa email sudah sesuai dengan di daftarkan
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
                 binding.emailLogin.error = "Email Tidak Sesuai!"
                 binding.emailLogin.requestFocus()
